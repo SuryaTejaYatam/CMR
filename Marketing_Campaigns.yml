@@ -13,25 +13,12 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
 
-  security:
-    user:
-      name: admin
-      # password: admin123
+  # security:
+  #   user:
+  #     name: admin
+  #     # password: admin123
 
-  mail:
-    host: smtp.gmail.com         # Use Gmail's SMTP server
-    port: 587                    # Port for TLS (587 for TLS, 465 for SSL)
-    username: tejusurya066@gmail.com  # Your Gmail email address
-    password: xnyhesubtueqroho  # Your Gmail password or app-specific password
-    properties:
-      mail:
-        smtp:
-          auth: true               # Enable SMTP authentication
-          starttls:
-            enable: true           # Enable STARTTLS for secure communication
-    default-encoding: UTF-8        # Default character encoding
-    protocol: smtp                 # Email protocol (smtp or smtps)
-    test-connection: true          # Test the connection on startup 
+
 
 eureka:
   client:
